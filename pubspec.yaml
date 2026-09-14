@@ -1,0 +1,86 @@
+name: notenext
+description: "A modern Notes + Tasks app (Mi Notes), built with Flutter."
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+
+  # ---------- State Management ----------
+  flutter_riverpod: ^3.4.3
+
+  # ---------- Local Database (Isar Community fork — namespace/AGP-9 compatible) ----------
+  isar_community: ^3.3.2
+  isar_community_flutter_libs: ^3.3.2
+  path_provider: ^2.1.6
+  path: ^1.9.1
+
+  # ---------- Rich Text Editor ----------
+  flutter_quill: ^11.5.1
+  flutter_localizations:
+    sdk: flutter
+
+  # ---------- Ads ----------
+  unity_levelplay_mediation: ^9.2.0
+
+  # ---------- Notifications / Reminders ----------
+  flutter_local_notifications: ^22.3.0
+  timezone: ^0.11.1
+
+  # ---------- Voice Notes ----------
+  record: ^7.1.1
+  audioplayers: ^6.8.1
+  permission_handler: ^13.0.2
+
+  # ---------- Images ----------
+  image_picker: ^1.2.3
+  photo_view: ^0.15.0
+
+  # ---------- Security ----------
+  local_auth: ^3.0.2
+  flutter_secure_storage: ^11.1.1
+
+  # ---------- Firebase Sync ----------
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.6.1
+  cloud_firestore: ^6.9.0
+  firebase_storage: ^13.5.0
+  google_sign_in: ^7.2.0
+
+  # ---------- Export / Share ----------
+  share_plus: ^13.3.0
+  pdf: ^3.13.0
+  printing: ^5.15.0
+  screenshot: ^3.0.0
+  markdown: ^7.3.1
+
+  # ---------- In-App Purchases ----------
+  purchases_flutter: ^10.12.0
+  shared_preferences: ^2.5.5
+
+  # ---------- Utilities ----------
+  uuid: ^4.6.0
+  intl: ^0.20.2
+  crypto: ^3.0.7
+  google_fonts: ^8.2.1
+  flex_color_scheme: ^8.4.0
+  flutter_slidable: ^4.0.3
+  file_picker: ^12.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  isar_community_generator: ^3.3.2
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
