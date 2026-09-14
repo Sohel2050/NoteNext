@@ -1,7 +1,7 @@
 name: notenext
 description: "A modern Notes + Tasks app (Mi Notes), built with Flutter."
 publish_to: 'none'
-version: 1.1.0+2
+version: 1.0.0+1
 
 environment:
   sdk: ^3.12.2
